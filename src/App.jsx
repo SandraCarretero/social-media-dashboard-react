@@ -1,10 +1,13 @@
-import { GlobalStyles } from "./styles/GlobalStyles";
+import Header from './components/header/Header';
+import MainContainer from './components/main-container/MainContainer';
+import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
 	return (
 		<>
-			<GlobalStyles/>
-			<h1>Núcleo de la aplicación</h1>;
+			<GlobalStyles />
+			<Header />
+			<MainContainer />
 		</>
 	);
 };
