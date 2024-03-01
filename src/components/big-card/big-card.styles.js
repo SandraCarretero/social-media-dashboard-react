@@ -11,6 +11,7 @@ const StyledBigCard = styled.div`
 	padding-block: 2rem 24px;
 	border-radius: 0.3125rem;
 	background-color: #252b42;
+	cursor: pointer;
 
 	&::after {
 		content: '';
@@ -30,6 +31,12 @@ const StyledBigCard = styled.div`
 	@media screen and (width > 768px) {
 		width: 255px;
 		height: 216px;
+	}
+
+	@media (hover:hover){
+		&:hover{
+			background-color: #333A55
+		}
 	}
 `;
 

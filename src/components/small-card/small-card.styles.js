@@ -9,9 +9,16 @@ const StyledSmallCard = styled.div`
 	width: 326px;
 	height: 125px;
 	padding: 24px;
+	cursor: pointer;
 
 	@media screen and (width > 768px) {
 		width: 255px;
+	}
+
+	@media (hover:hover){
+		&:hover{
+			background-color: #333A55
+		}
 	}
 `;
 
